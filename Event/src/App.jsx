@@ -6,6 +6,7 @@ import Hero from "./components/hero";
 import Navbars from "./components/navbar";
 import Register from "./components/Register";
 import Speaker from "./components/speaker";
+import Details from "./components/Details"
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
       <Catalyst />
       <Speaker />
       <Register />
+      <Details />
       <Footer />
     </div>
   );
